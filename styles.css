@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(28, 28, 32);
+}
+
+.logo{
+    width: 99.7%;
+    height: 10%;
+    border: solid rgb(48, 48, 51);
+    background-color: rgb(48, 48, 51);
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+}
+.load{
+    width: 100%;
+    animation-name: logo;
+    animation-duration: 4s;
+    background-color: rgb(37, 37, 48);
+    
+}
+@keyframes logo{
+    from{ 
+        border: solid rgba(3, 3, 253, 0.11);
+        width: 0%;
+    }
+    to{
+        border: solid rgb(72, 72, 77);
+        width: 100%-20px;
+    }
+
+}
+
+
+
+/* menu */
+a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    justify-self: center;
+    align-self: center;
+    border-radius: 25px;
+}
+a:hover{
+    background-color: rgba(25, 25, 26, 0.295) ;
+}
+  
+
+.meny{
+      width: 100px;
+      max-width: 50%;
+      padding-left: 25px;
+      background-color: rgba(0, 0, 0, 0);
+
+      
+ 
+  }
+  .meny:hover{
+      color: blue;
+      
+      
+  }
+
+
+  .hamza{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: blue;
+    justify-self: center;
+    align-self: center;
+    
+  }
+  .hamza1{
+    width: 40px;
+    align-self: center;
+    margin-top: 6px;
+    background-color:rgba(0, 0, 0, 0) ;
+  }
+  input{
+    padding: 12px 20px;
+    background-color: #272927;
+    color: ivory;
+
+    border-radius: 25px;
+  }
+
+.alter{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(48, 48, 51);
+}
+@media only screen and (max-width: 800px) {
+    .meny {
+     padding-left: 10px;
+  
+
+    }
+  }
+.centerlogo{
+    width: auto;
+    height: auto;
+    display: flex;
+  
+}
